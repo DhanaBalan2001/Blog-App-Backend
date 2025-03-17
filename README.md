@@ -108,7 +108,7 @@ GET /api/users/:id/following - Get users that a user is following
 ## Deployment
 
 The backend is deployed on Render:
-https://expense-tracker-backend-944r.onrender.com
+https://blog-app-backend-u840.onrender.com
 
 ## License
 
