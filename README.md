@@ -66,16 +66,16 @@ API documentation is available at `/api/docs` endpoint when the server is runnin
 
 ## User Management
 
-POST /api/users/register - Register a new user
-POST /api/users/login - Login a user
-GET /api/users/me - Get current user profile (requires authentication)
-GET /api/users/:id - Get user profile by ID
-PUT /api/users/me - Update user profile (requires authentication)
-POST /api/users/profile-picture - Update profile picture URL (requires authentication)
-PUT /api/users/follow/:id - Follow a user (requires authentication)
-PUT /api/users/unfollow/:id - Unfollow a user (requires authentication)
-GET /api/users/:id/followers - Get user followers
-GET /api/users/:id/following - Get users that a user is following
+- `POST /api/users/register` - Register a new user
+- `POST /api/users/login` - Login a user
+- `GET /api/users/me` - Get current user profile (requires authentication)
+- `GET /api/users/:id` - Get user profile by ID
+- `PUT /api/users/me` - Update user profile (requires authentication)
+- `POST /api/users/profile-picture` - Update profile picture URL (requires authentication)
+- `PUT /api/users/follow/:id` - Follow a user (requires authentication)
+- `PUT /api/users/unfollow/:id` - Unfollow a user (requires authentication)
+- `GET /api/users/:id/followers` - Get user followers
+- `GET /api/users/:id/following` - Get users that a user is following
 
 ## Post Management
 
